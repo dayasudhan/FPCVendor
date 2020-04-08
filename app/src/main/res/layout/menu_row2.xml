@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:paddingRight="5dp"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+
+    android:background="@color/gagancolorprimary">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Item Name"
+        android:textColor="@color/primary_text"
+        android:id="@+id/itemname"
+        android:paddingLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="itemprice"
+        android:paddingLeft="10dp"
+        android:id="@+id/itemprice"
+        android:textColor="@color/secondary_text"
+
+
+        android:layout_below="@+id/itemname"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp" />
+    <!--<TextView-->
+        <!--android:id="@+id/itemavailability"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textColor="@color/primary_text"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+        <!--android:layout_below="@+id/itemprice"-->
+        <!--android:layout_alignLeft="@+id/itemprice"-->
+        <!--android:layout_alignStart="@+id/itemprice"-->
+        <!--android:text="availability" />-->
+
+
+
+    <Switch
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close/Open"
+        android:textColor="@color/gagantextcolor"
+        android:id="@+id/onoff"
+
+        android:shadowColor="@color/gagantextcolorprim"
+        android:layout_gravity="center_horizontal"
+        android:checked="false"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <!--<TextView-->
+
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:text="-"-->
+
+        <!--android:textColor="@color/text_view_grey"-->
+        <!--android:textSize="16sp"-->
+        <!--android:gravity="center_horizontal|center_vertical"-->
+        <!--android:background="#ffffff"-->
+        <!--android:id="@+id/sub_btn"-->
+        <!--android:layout_below="@+id/add_sub_val"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true" />-->
+    <!--<TextView-->
+
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:text="+"-->
+        <!--android:textSize="16sp"-->
+        <!--android:textColor="@color/text_view_grey"-->
+        <!--android:background="#ffffff"-->
+        <!--android:gravity="center_horizontal|center_vertical"-->
+        <!--android:id="@+id/add_btn"-->
+        <!--android:layout_alignTop="@+id/viewleft"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:textSize="14sp"-->
+        <!--android:text="0"-->
+
+        <!--android:textColor="@color/text_view_grey"-->
+        <!--android:gravity="center_horizontal|center_vertical"-->
+        <!--android:id="@+id/add_sub_val"-->
+        <!--android:background="#ffffff"-->
+        <!--android:layout_below="@+id/add_btn"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignLeft="@+id/add_btn"-->
+        <!--android:layout_alignStart="@+id/add_btn" />-->
+
+
+</RelativeLayout>
